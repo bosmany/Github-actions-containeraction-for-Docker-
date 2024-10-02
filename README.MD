@@ -1,0 +1,1 @@
+In order to optimize the performance of our application, we need to check the memory allocated to the container during build time. Using a GitHub Action, we will send input and output parameters to the runner in order to insert a greeting as well as verify total memory from within the build logs.
