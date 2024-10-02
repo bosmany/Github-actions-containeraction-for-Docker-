@@ -1,0 +1,14 @@
+name: 'my first container action'
+description: 'Bilal Container'
+author: 'Mohammed Bilal'
+inputs:
+  myInput:
+    description: 'greeting to use'
+    required: true
+    default: 'A Good Day!'
+outputs:
+  myOutput:
+    description: 'total memory'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
