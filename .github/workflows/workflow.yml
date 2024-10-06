@@ -28,4 +28,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: docker push/${{ var.DOCKER_USERNAME }}/solar-system:${{ github.sha }}
+        tags: docker push/${{ secrets.DOCKER_USERNAME }}/solar-system:${{ github.sha }}
